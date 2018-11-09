@@ -1,0 +1,19 @@
+.nav {
+  height: 68px;
+}
+
+.nav-links {
+  width: 30%;
+  position: absolute;
+  top: 15px;
+  right: 25%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+
+  .link {
+    text-decoration: none;
+    color: inherit;
+    z-index: 2;
+  }
+}
